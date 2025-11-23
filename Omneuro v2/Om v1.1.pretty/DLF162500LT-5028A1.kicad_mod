@@ -1,0 +1,170 @@
+(footprint "DLF162500LT-5028A1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.06 -1.38 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cdf5d1b5-c830-43ca-bcdb-349031cd3f86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DLF162500LT-5028A1 "
+		(at 0.27 1.42 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "511b8dda-80b0-489c-ad6a-9dc17c4d64e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "741c6e76-0bd0-4f9e-9d6e-539baf53e92e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfd44a3a-4bcc-4fbe-aaae-3edb0599f7ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.09 0.5)
+		(end -1.09 0.29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0008b5b2-e519-4738-858f-331987690342")
+	)
+	(fp_line
+		(start -1.08 -0.6)
+		(end 1.03 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "109aa703-1c06-45af-a543-5b56d80b5875")
+	)
+	(fp_line
+		(start -1.08 -0.31)
+		(end -1.08 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "03451e15-408c-474a-a92c-4d44c8263bed")
+	)
+	(fp_line
+		(start 1.03 -0.6)
+		(end 1.03 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "99e0924f-45d6-44eb-a970-da489bd504ef")
+	)
+	(fp_line
+		(start 1.03 0.5)
+		(end -1.09 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d1d63cdc-f476-4fe2-a5aa-cb0b9d64920c")
+	)
+	(fp_circle
+		(center -1.08 -0.01)
+		(end -0.96 -0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5d786fca-6041-433c-aaee-e79a55beed08")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 3.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2603ae5e-57d2-47f3-b4c9-0e31083fcf97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.6125 0)
+		(size 0.275 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "99d28ecb-0e7a-4619-8762-b8f56009df8e")
+	)
+	(pad "2" smd roundrect
+		(at 0 -0.2275)
+		(size 0.45 0.245)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "317bcd20-4d34-4947-8c27-10106c77830b")
+	)
+	(pad "3" smd roundrect
+		(at 0.6125 0)
+		(size 0.275 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f6c32728-cd28-4c83-93f2-aaeefc63627e")
+	)
+	(pad "4" smd roundrect
+		(at 0 0.2275)
+		(size 0.45 0.245)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b02384a1-932b-48a3-88e4-83963610edb7")
+	)
+	(embedded_fonts no)
+	(model "/home/kino/Om v1.1/Models/step files /ul_DLF162500LT-5028A1/DLF-4_1P6X0P8.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
