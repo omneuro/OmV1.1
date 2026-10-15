@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Om v1.1")(type "KiCad")(uri "${KIPRJMOD}/Om v1.1.pretty")(options "")(descr ""))
+  (lib (name "CAY16-2201F4LF")(type "KiCad")(uri "${KIPRJMOD}/ul_CAY16-2201F4LF/KiCADv6/CAY16-2201F4LF")(options "")(descr ""))
+)
