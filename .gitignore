@@ -1,0 +1,16 @@
+# KiCad local preferences
+*.kicad_prl
+
+# KiCad caches and temporary files
+fp-info-cache
+*.log
+*.lck
+*-rescue.*
+
+# KiCad automatic backups
+*-backups/
+*.kicad_sch-bak
+
+# Windows temporary files
+Thumbs.db
+desktop.ini
